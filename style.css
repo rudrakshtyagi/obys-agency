@@ -16,7 +16,10 @@ body {
 
 body {
     overflow-x: hidden;
+
 }
+
+
 
 
 
@@ -135,7 +138,7 @@ body {
 
 #main {
     position: relative;
-    background-color: #010101;
+    background-color: #151515;
 
 
 
@@ -144,9 +147,10 @@ body {
 
 #page1 {
 
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     background-color: #151515;
+   
 }
 
 #page1 #nav {
@@ -187,7 +191,7 @@ body {
     margin-left: 30%;
     height: fit-content;
     /* background-color: red; */
-    overflow: hidden;
+    overflow-y: hidden;
     display: flex;
     align-items: center;
 
@@ -198,9 +202,27 @@ body {
 .hero h1 {
     font-size: 7vw;
     line-height: 6.3vw;
-
+position: relative;
     font-weight: 500;
 }
+
+
+#hero1::before{
+
+        content: "01";
+        font-family: 'silk serif';
+    font-weight: 500;
+    position: absolute;
+    left: 21%;
+    top: 29%;
+    font-size: 3.2vw;
+    
+
+
+}
+
+
+
 
 .hero:nth-child(2) {
     margin-top: 16vh;
@@ -234,14 +256,16 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #151515;
-    padding-top: 12vh;
+ 
+  
     position: relative;
-
+/* background-color: red; */
 }
 
 #video-container {
     height: 70vh;
     width: 68vw;
+  
     position: relative;
     left: 30%;
     background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
@@ -275,9 +299,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0;
+    top: -11%;
     left: 80%;
-    z-index: 999;
+    z-index: 998;
 }
 
 #video-crsr i {
@@ -316,10 +340,26 @@ body {
     font-size: 7.3vw;
     font-weight: 540;
     letter-spacing: 0.007vw;
+    position: relative;
+
 }
 
+#page4-content h1::before {
+    content: "03";
+    font-family: 'silk serif';
+    font-weight: 500;
+    position: absolute;
+    left: -14%;
+    top: 5%;
+    font-size: 3.2vw;
+
+
+}
+
+
+
 #page4-content .underline {
-    height: 0.6px;
+    height: 0.2px;
     width: 100%;
     background-color: #c3c1c1;
     margin: 5vw 0vw 4vw 0;
@@ -356,10 +396,10 @@ body {
 #page4-blue-div {
     background-color: #3F7DF4;
     width: 30vw;
-    padding:2vw;
+    padding: 2vw;
     position: relative;
-margin-top: -14vw;
-margin-left: 21.8vw;
+    margin-top: -14vw;
+    margin-left: 21.8vw;
 }
 
 .blue-div-elem {
@@ -388,8 +428,183 @@ margin-left: 21.8vw;
 }
 
 
-#page5{
+#page5 {
     min-height: 100vh;
     width: 100%;
-    
+    position: relative;
+    background-color: #151515;
+
+}
+
+.elem {
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.elem h1 {
+    font-size: 6.9vw;
+    -webkit-text-stroke: 0.1px #fff;
+    color: transparent;
+    display: inline-block;
+    margin-right: 16px;
+
+    animation-name: animee;
+    animation-duration: 19s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animee {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+
+}
+
+
+
+
+
+
+.elem2 {
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.elem2 h1 {
+    font-size: 6.9vw;
+    -webkit-text-stroke: 0.1px #fff;
+    color: transparent;
+    display: inline-block;
+    margin-right: 16px;
+
+    animation-name: animee;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: translateX(calc(-100% - 20px));
+    animation-direction: reverse;
+
+}
+
+
+.elem span {
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+    -webkit-text-stroke: 0.0001px #ffffffb6;
+
+}
+
+
+
+.elem2 span {
+    font-style: italic;
+    font-family: "silk serif";
+    color: transparent;
+    -webkit-text-stroke: 0.0001px #ffffffb6;
+
+}
+
+
+#footer {
+    height: 98vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding-left: 26vw;
+    padding-top: 2.5vw;
+    background-color: #151515;
+    padding-right: 4vw;
+
+
+
+}
+
+#footer h1 {
+    font-size: 7.3vw;
+    font-weight: 540;
+    /* background-color: blue; */
+    margin-bottom: 2.2vw;
+    position: relative;
+
+}
+
+
+#footer h1::before {
+    content: "04";
+    font-family: 'silk serif';
+    font-weight: 500;
+    position: absolute;
+    left: -14%;
+    top: 5%;
+    font-size: 3.2vw;
+
+
+}
+
+.underline {
+
+    height: 0.1px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0.1vw 0;
+
+}
+
+.footer-div-underline {
+
+    height: 0.1px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0.1vw 0;
+
+
+}
+
+
+#footer-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 13vw;
+    padding-top: 4vw;
+    padding-bottom: 1vw;
+    margin-bottom: 3vw;
+    /* background-color: yellow; */
+}
+
+
+#footer-div h5 {
+
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0.4vh 0;
+    /* background-color: purple; */
+
+}
+
+#footer-div h6 {
+    font-size: 1vw;
+    margin-bottom: 2.7vw;
+
+}
+
+.box {
+    width: 27%;
+    /* background-color: orange; */
+}
+
+
+#footer>h5 {
+    font-size: 1vw;
+    font-weight: 500;
+    margin-top: 1.6vw;
 }

@@ -8,6 +8,10 @@
 
     <link rel="shortcut icon" href="./Favicon..png" type="image/x-icon">
     <!-- webiset icon link -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">   
+ <!-- locomotive cdn for css -->
+
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
     <!-- shery js cdn for css -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
@@ -45,7 +49,7 @@
 
     <div id="main">
 
-        <div id="page1">
+        <div id="page1" data-scroll data-scroll-speed="-2.5"  >
 
 
             <div id="nav">
@@ -123,7 +127,7 @@
 
         </div>
 
-        <div id="page2">
+        <div id="page2" data-scroll data-scroll-speed="-2.5" >
 
             <div id="video-container">
                 <div id="video-crsr">
@@ -142,8 +146,8 @@
 
 
         </div>
-        <div id="page3"></div>
-        <div id="page4">
+        <div id="page3" data-scroll data-scroll-speed="-2.5" ></div>
+        <div id="page4"  data-scroll data-scroll-speed="-2.5" >
 
             <div id="page4-content">
 
@@ -250,7 +254,7 @@
 
                     </div>
 
-                
+
                 </div>
 
                 <div class="underline"></div>
@@ -261,38 +265,113 @@
         </div>
 
 
-        <div id="page5">
+        <div id="page5" data-scroll   >
+
+            <div class="elem">
+                <h1><span>SPORT</span> - FASHION - TECHNOLOGY -</h1>
+                <h1><span>SPORT</span> - FASHION - TECHNOLOGY -</h1>
+
+
+            </div>
+
+            <div class="elem2">
+                <h1>SCIENCE - <span>TRAVEL</span> - PARTNERS -</h1>
+                <h1>SCIENCE - <span>TRAVEL</span> - PARTNERS -</h1>
+
+
+            </div>
+
+
+            <div class="elem">
+                <h1>SPORT - FASHION - <span>TECHNOLOGY</span> -</h1>
+                <h1>SPORT - FASHION - <span>TECHNOLOGY</span> -</h1>
+
+
+            </div>
+
+            <div class="elem2">
+                <h1> <span>SCIENCE</span> - TRAVEL - PARTNERS -</h1>
+                <h1> <span>SCIENCE</span> - TRAVEL - PARTNERS -</h1>
+
+
+            </div>
 
 
 
 
-            
         </div>
 
+        <div id="footer" data-scroll >
+
+            <h1>LET's CREATE</h1>
+            <div class="underline"></div>
+            <div id="footer-div">
+
+                <div class="box">
+
+                    <h6>Social</h6>
+                    <h5>Dribble</h5>
+                    <h5>Behance</h5>
+                    <h5>Instagram</h5>
+                    <h5>Facebook</h5>
+                    <h5>Twitter</h5>
+                    <h5>YouTube</h5>
+                </div>
+
+
+                <div class="box">
+
+                    <h6>Address</h6>
+                    <h5>Zamarstynivska 55 <br>
+                        79019 Lviv <br>
+                        Ukraine</h5>
+
+
+                </div>
+                <div class="box">
+                    <h6>Say Hi!</h6>
+                    <h5>info@obys.agency</h5>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="footer-div-underline"></div>
+
+            <h5>ObysAgency © 2024</h5>
+
+
+        </div>
+
+    </div>
 
 
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- locomotive cdn for js  -->
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-            integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <!-- gsap cdn -->
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-            integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        <!-- scroll trigger cdn -->
-
-        <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
-        <!-- shery js cdn for js -->
+    <!-- gsap cdn -->
 
 
-        <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- scroll trigger cdn -->
+
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    <!-- shery js cdn for js -->
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
